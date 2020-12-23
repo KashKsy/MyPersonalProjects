@@ -1,0 +1,53 @@
+body{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(0, 38, 255));
+    font: 14px/26px 'Bungee', Helvetica, Arial, sans-serif;  
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+   
+}
+h1{
+    text-align: center;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 50px;
+}
+#lolcatImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    max-width: 30em;
+}
+
+.setTime{
+    border-radius: 10px;
+    border-color: rgb(9, 14, 92);
+    border-width: 5px;
+    margin: 10px auto;
+}
+#partyTimeButton{
+    background-color: black;
+    color: white;
+    font-family: 'Bungee', cursive;
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+footer{
+    margin-top: 20px;
+    font-size: 10px;
+  
+}
+select{
+    font: 14px/26px 'Bungee', Helvetica, Arial, sans-serif;  
+
+}
+#clock{
+    font-size: 40px;
+
+}
