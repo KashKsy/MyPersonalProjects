@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tip Calculator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Tip Calculator</h1>
+        <form>
+
+            <div id="calculator">
+               <p> How much was your bill?</p><br>
+                &#8377; <input type="text" id="inputBill" /><br>
+                <p id="serviceQualText">How was your service?</p> <br>
+                <select id="serviceQual">
+                    <option disabled selected value="0">--Choose an option--</option>
+                    <option value="0.3">30% - Outstanding</option>
+                    <option value="0.2">20% - Good</option>
+                    <option value="0.15">15% - It was okay </option>
+                    <option value="0.1">10% - Bad </option>
+                    <option value="0.05">5% - Absolutely terrible</option>
+                </select>
+            </form>
+            </div>
+            <div id="share">
+                How many people are sharing the bill with you?<br>
+                <input type="text" id="people" /> People
+            </div>
+            <button id="calculateBtn">Calculate!</button><br>
+            <div id="totalTip">
+                <p id="tipAmount">Tip Amount</p> 
+                <sup>&#8377;</sup><span id="tip">0.00</span>
+                
+            </div>
+          <span id="eachText">  each. </span>
+
+        
+
+
+    </div>
+
+    <script src="script.js" async defer></script>
+</body>
+
+</html>

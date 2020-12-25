@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background: linear-gradient(to left, #041757, #1F1C18);
+    font-family: 'Langar', cursive;
+    color:black;
+    
+}
+select, button{
+
+    font-family: 'Langar', cursive;
+}
+#container{
+
+    height: 525px;
+    width: 360px;
+    padding: 30px;
+    margin: 100px auto;
+    background: white;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: lighter;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  
+    
+}
+h1{
+    width: 150px;
+    background: #1F030C;
+    color: white;
+    margin: 0;
+    padding: 10px 100px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal;
+    
+  
+}
+p {
+    padding-top: 30px;
+  }
+
+#inputBill{
+    display: inline;
+    border-style: groove;
+    padding-top: 10px;
+    font-family: 'Langar', cursive;
+}
+#serviceQualText{
+    padding-top: 20px;
+}
+#service{
+    border-style: groove;
+}
+#share{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#people{
+    display: inline;
+    border-style: groove;
+    font-family: 'Langar', cursive; 
+
+}
+#calculateBtn{
+width: 120px;
+height: 50px;
+font-size: larger;
+background-color: rgb(104, 104, 197);
+}
+
+#tipAmount{
+    padding-top: 10px;
+}
